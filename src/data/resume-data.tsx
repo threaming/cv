@@ -20,56 +20,63 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Andreas Ming",
+  initials: "AM",
+  location: "Christchurch, New Zealand",
+  locationLink: "https://www.google.com/maps/place/Christchurch",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Electrical Engineer in training focused on the seamless integration of Hard-, Firm- and Software",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "As a skilled electronics technician transitioning to electrical engineering, I excel in collaborating across multiple disciplines to deliver successful projects. My expertise includes leading effective teams, creating productive environments, and utilizing tools such as Altium Designer to create and test circuit boards. With strong foundational knowledge and eagerness to learn, I am eager to bring my passion for cross-functional collaboration to new challenges.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "andreasming@outlook.com",
+    tel: "+642902257092",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/threaming",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/andreas-ming-9147211a0/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Emmen Vocational Training Centre",
+      degree: "Electronics Technician, Federal Diploma of Vocational Education and Training",
+      start: "2015",
+      end: "2019",
+    },
+    {
+      school: "Lucerne University of Applied Sciences and Arts",
+      degree: "Bachelor's Degree in Electrical Engineering and Information Technology",
+      start: "2021",
+      end: "2025",
+    },
+    {
+      school: "University of Canterbury",
+      degree: "Two exchange semesters with lectures on Vision, Machine Learning, Nano Engineering & Embeeded Systems",
+      start: "2024",
+      end: "2024",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "cropled",
+      link: "https://www.linkedin.com/company/cropled/",
+      badges: ["Part time"],
+      title: "Electrical Engineer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2022",
+      end: "2023",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Directed electronics architecture, led the team, and engineered digital and analog power circuits for LED lighting, analyzing circuit feasibility, implementing DfM, building hardware layouts in Altium, administering component databases and conducting prototype measurements and validation.",
     },
     {
       company: "Clevertech",
