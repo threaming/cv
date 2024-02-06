@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "Swiss Kiwi Electrical Engineer in training focused on the seamless integration of hard-, firm- and software",
   summary:
     "As a skilled electronics technician transitioning to electrical engineering, I excel in collaborating across multiple disciplines to deliver successful projects. My expertise includes leading effective teams, creating productive environments, and utilizing tools such as Altium Designer to create and test circuit boards. With strong foundational knowledge and eagerness to learn, I am eager to bring my passion for cross-functional collaboration to new challenges.",
-  avatarUrl: "https://media.licdn.com/dms/image/C4D03AQGhT-cx4gTmYQ/profile-displayphoto-shrink_800_800/0/1633539430032?e=1712188800&v=beta&t=qphd03QDGOUcLuM-q2EQ4e4k_QumTO8FpdS84Q17NwA",
+  avatarUrl: "https://avatars.githubusercontent.com/u/111476247?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "andreasming@outlook.com",
@@ -70,7 +70,7 @@ export const RESUME_DATA = {
     {
       company: "cropled",
       link: "https://www.linkedin.com/company/cropled/",
-      badges: ["Part time"],
+      badges: ["Part-time"],
       title: "Electrical Engineer",
       logo: ParabolLogo,
       start: "2022",
@@ -98,7 +98,7 @@ export const RESUME_DATA = {
       start: "2015",
       end: "2019",
       description:
-        "Acquired foundational electronics knowledge whilst gaining exposure across various departments in subsidiaries Leister and Axetris, learning from seasoned professionals passionate about electronics. Mastered analog/digital electronics development, simulation, and design using TINA and Altium, embarked on embedded software programming with AVR and STM32 platforms in Eclipse, honed circuit debugging capabilities, understood design for manufacturing, embraced EMF compliance, engaged in producing electronic devices in industrial and cleanroom contexts, and delved into cable harness and device cabling design and fabrication. Overall, acquired diverse competencies in electronics design, development, and manufacturing.",
+        "Gained electronics know-how at Leister and Axetris, working alongside enthusiastic professionals: grasped fundamentals of analog/digital electronics development, simulation through TINA and Altium, explored embedded software coding on AVR and STM32 platforms within Eclipse, mastered circuit debugging tactics, familiarized myself with design for manufacturing and electromagnetic compatibility norms, contributed to electronic device production in industrial and cleanroom surroundings, and gained insights into design and fabrication of cable harnesses and peripheral wiring. Balanced theoretical learning with practical application to develop well-rounded electronics expertise.",
     },
   ],
   skills: [
@@ -112,164 +112,21 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Summaries BSc EEIT",
       techStack: [
         "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Digital Signal Processing",
+        "Electronics",
+        "Embeeded Programming",
+        "Skripting",
+        "Math & Physics",
       ],
-      description: "A platform to build and grow your online business",
+      description: "Summaries of several papers at HSLU. In collaboration with colleagues.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "Github repo",
+        href: "https://github.com/threaming/BSc_EEIT",
       },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
