@@ -128,5 +128,21 @@ export const RESUME_DATA = {
         href: "https://github.com/threaming/BSc_EEIT",
       },
     },
+    {
+      title: "Boulder Game",
+      techStack: [
+        "C",
+        "FreeRTOS",
+        "Embeeded Systems",
+        "Eclipse",
+        "Segger Tools",
+      ],
+      description: "Boudler Game on Microcontroller for module Advanced Embeeded Systems",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Github repo",
+        href: "https://github.com/threaming/AEMBS_TinyK22_Boulder",
+      },
+    },
   ],
 } as const;
