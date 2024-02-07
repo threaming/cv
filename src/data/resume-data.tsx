@@ -68,7 +68,7 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "cropled",
+      company: "cropled AG",
       link: "https://www.linkedin.com/company/cropled/",
       badges: ["Part-time"],
       title: "Electrical Engineer",
