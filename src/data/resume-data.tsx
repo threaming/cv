@@ -32,7 +32,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "andreasming@outlook.com",
-    tel: "+642902257092",
+    tel: "+64 2902257092",
     social: [
       {
         name: "GitHub",
@@ -109,12 +109,13 @@ export const RESUME_DATA = {
     "FreeRTOS",
     "VHDL",
     "Matlab",
+    "Eclipse",
+    "Segger Tools",
   ],
   projects: [
     {
       title: "Summaries BSc EEIT",
       techStack: [
-        "Side Project",
         "Digital Signal Processing",
         "Electronics",
         "Embeeded Programming",
