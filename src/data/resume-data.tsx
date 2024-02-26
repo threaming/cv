@@ -41,7 +41,7 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/andreas-ming-9147211a0/",
+        url: "https://www.linkedin.com/in/andreasming",
         icon: LinkedInIcon,
       },
     ],
